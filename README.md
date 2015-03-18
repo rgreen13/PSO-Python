@@ -1,2 +1,2 @@
 # PSO-Python
-Particle Swarm Optimization in Oython
+A simple implementation of Particle Swarm Optimization in Python
