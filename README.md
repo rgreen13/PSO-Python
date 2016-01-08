@@ -12,10 +12,15 @@ A simple implementation of classic Particle Swarm Optimization in Python.
 
 ###Method Names###
 _fitFunc_:        User defined fitness function
+
 _initPosition_:   Initializes _R_ with random values
+
 _initVelocity_:   Initializes _V_ with random values
+
 _updatePosition_: Updates _R_ values based on _V_
+
 _updateVelocity_: Updates _V_ values based on _gBestPos_, _pBestPos_, _w_, and _chi_
+
 _udpateFitness_:  Updates _M_ values based on _R_
 
 
