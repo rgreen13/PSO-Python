@@ -85,7 +85,10 @@ if __name__ == "__main__":
         updatePosition(R, Np, Nd, xMin, xMax)
 
         gBestValue = updateFitness(R, M, Np, pBestPos, pBestValue, gBestPos, gBestValue)
-        print gBestValue
+        history.append(gBestValue)
         
         w = wMax - ((wMax-wMin)/Nt)*j
         updateVelocity(R, V, Np, Nd, j, w, vMin, vMax, chi, pBestPos, gBestPos)
+
+    for h in history:
+        print h
