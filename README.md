@@ -1,7 +1,7 @@
 # PSO-Python
 A simple implementation of classic Particle Swarm Optimization in Python. 
 
-###Usage###
+### Usage ###
 
 1. Update the _fitFunc_ function to accurately reflect your fitness function
 2. Adjust Np and Nd to reflect your fitness function
@@ -10,7 +10,8 @@ A simple implementation of classic Particle Swarm Optimization in Python.
 5. Run the code!
 
 
-###Method Names###
+### Method Names ###
+
 _fitFunc_:        User defined fitness function
 
 _initPosition_:   Initializes _R_ with random values
@@ -24,7 +25,7 @@ _updateVelocity_: Updates _V_ values based on _gBestPos_, _pBestPos_, _w_, and _
 _udpateFitness_:  Updates _M_ values based on _R_
 
 
-###Variable Names###
+### Variable Names ###
 
 _R_: Position
 
